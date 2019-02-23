@@ -8,6 +8,7 @@ const emptyEvent = {
   venue: "",
   hostedBy: ""
 };
+
 class EventForm extends Component {
   state = {
     event: emptyEvent
