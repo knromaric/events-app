@@ -12,6 +12,7 @@ const actions = {
   incrementCounter,
   decrementCounter
 }
+
 class TestComponent extends Component {
   render() {
     const {incrementCounter, decrementCounter, data} = this.props;
